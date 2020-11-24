@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-			  <remote  name="github"
-           fetch="https://github.com/" />
+
 
   <remote  name="omnirom"
            fetch="https://github.com/omnirom"
@@ -11,8 +10,7 @@
            fetch="https://github.com/TeamWin"
            review="https://gerrit.twrp.me" />
 		   
-	  <remote name="Xtended-Devices"
-           fetch="https://github.com/Xtended-Devices"/>
+
 		   
 			<project path="device/oneplus/oneplus3" name="device_oneplus_oneplus3" remote="Xtended-Devices" revision="xq" />
 			
