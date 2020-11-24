@@ -24,7 +24,7 @@
     <project path="development" name="development" remote="xtended" />
     <project path="libcore" name="libcore"  remote="xtended" />
     <project path="manifest" name="manifest" remote="xtended" />
-    <project path="platform_testing" name="platform_testing" remote="xtended" />
+   <!-- <project path="platform_testing" name="platform_testing" remote="xtended" />-->
 
     <!-- Build Repos -->
     <project path="build/make" name="build" remote="xtended" >
