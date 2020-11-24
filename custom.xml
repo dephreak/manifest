@@ -14,8 +14,6 @@
 	  <remote name="Xtended-Devices"
            fetch="https://github.com/Xtended-Devices"/>
 		   
-			<remove-project name="platform/bootable/recovery"/>
-			<project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-10.0" />
 			<project path="device/oneplus/oneplus3" name="device_oneplus_oneplus3" remote="Xtended-Devices" revision="xq" />
 			
 			<project path="device/qcom/twrp-common" name="android_device_qcom_twrp-common" remote="TeamWin" revision="android-10" />
