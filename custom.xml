@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+			  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="omnirom"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+		   
+  <remote name="TeamWin"
+           fetch="https://github.com/TeamWin"
+           review="https://gerrit.twrp.me" />
+		   
+	  <remote name="Xtended-Devices"
+           fetch="https://github.com/Xtended-Devices"/>
+		   
+			<remove-project name="platform/bootable/recovery"/>
+			<project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-10.0" />
+			<project path="device/oneplus/oneplus3" name="device_oneplus_oneplus3" revision="xq" />
+
+
+			
+
+		   
+		   
+</manifest>
