@@ -798,5 +798,5 @@
   <!-- Xtended additions -->
   <include name="lineage.xml" />
   <include name="xtended.xml" />
-
+	<include name="custom.xml"/>
 </manifest>
